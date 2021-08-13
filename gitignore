@@ -3,7 +3,7 @@
 
 # Expclicitly exclude .tfstate
 # Denne velger dere selv om dere vil ha med eller ikke! Skal staten lastet opp eller ikke. Opp til dere å finne en løsning på dette. 
-*.tfstate
+**/*.tfstate
 **/*.backup
 
 # Artifacts from CI/CD
@@ -17,3 +17,7 @@
 # macOS custom attributes
 **/.DS_Store
 **/.terraform.lock.hcl
+
+**/*.txt
+**/*.json
+**/*.csv
